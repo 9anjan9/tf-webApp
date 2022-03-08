@@ -1,4 +1,4 @@
 resourceGroupName = "ResGr"
-location = "west US"
+location = "Central India"
 servicePlan = "myPlan"
 webAppService = "myWebApp"
