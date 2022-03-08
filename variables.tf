@@ -10,6 +10,6 @@ variable "servicePlan" {
     type = string
 }
 
-variable "serviceWebApp" {
+variable "webAppService" {
     type = string
 }
