@@ -1,4 +1,4 @@
-resource "azurerm_app_service_plan" "myPlan" {
+resource "azurerm_app_service_plan" "Plan" {
   name                = var.servicePlan
   location            = var.location
   resource_group_name = azurerm_resource_group.resGrName.name
