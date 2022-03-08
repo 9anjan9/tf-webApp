@@ -4,7 +4,7 @@ resource "azurerm_app_service_plan" "Plan" {
   resource_group_name = azurerm_resource_group.resGrName.name
 
   sku {
-    tier = "Standard"
-    size = "S1"
+    tier = "Free"
+    size = "F1"
   }
 }
