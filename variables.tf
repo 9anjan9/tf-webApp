@@ -9,3 +9,7 @@ variable "location" {
 variable "servicePlan" {
     type = string
 }
+
+variable "serviceWebApp" {
+    type = string
+}
